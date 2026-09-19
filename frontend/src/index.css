@@ -1,0 +1,98 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+
+  background: #09090f;
+  color: #f5f5f7;
+
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+/* =========================
+   SECTION SCROLL POSITION
+========================= */
+
+section {
+  scroll-margin-top: 90px;
+}
+
+/* =========================
+   SELECTION
+========================= */
+
+::selection {
+  background: #9b5cff;
+  color: #ffffff;
+}
+
+/* =========================
+   SCROLLBAR
+========================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #292933;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9b5cff;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 800px) {
+  html {
+    scroll-padding-top: 75px;
+  }
+
+  section {
+    scroll-margin-top: 75px;
+  }
+}

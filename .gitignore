@@ -1,9 +1,31 @@
 # =========================================================
-# Maven
+# Maven / Spring Boot
 # =========================================================
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
+
+
+# =========================================================
+# Frontend / Node / Vite
+# =========================================================
+
+frontend/node_modules/
+frontend/dist/
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+
+# =========================================================
+# Environment / Local configuration
+# =========================================================
+
+.env
+.env.*
+!.env.example
 
 
 # =========================================================
@@ -15,6 +37,7 @@ target/
 .settings/
 .factorypath
 .springBeans
+.sts4-cache/
 
 
 # =========================================================
@@ -52,11 +75,3 @@ target/
 
 .DS_Store
 Thumbs.db
-
-
-# =========================================================
-# Environment / Local configuration
-# =========================================================
-
-.env
-.env.*
