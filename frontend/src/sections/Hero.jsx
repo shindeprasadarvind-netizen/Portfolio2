@@ -22,9 +22,9 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-            Java Backend Developer with 3+ years of experience
-            building scalable backend applications using Java,
-            Spring Boot, REST APIs and database technologies.
+            Java Backend Developer focused on building scalable backend
+            applications using Java, Spring Boot, REST APIs, MySQL,
+            PostgreSQL, and modern backend development practices.
           </p>
 
           {/* =========================
@@ -38,7 +38,7 @@ function Hero() {
               className="hero-primary-button"
             >
               <span>View My Projects</span>
-              <span>→</span>
+              <span>&rarr;</span>
             </a>
 
             <a
@@ -47,7 +47,7 @@ function Hero() {
               className="hero-secondary-button"
             >
               <span>Download Resume</span>
-              <span>↓</span>
+              <span>&darr;</span>
             </a>
 
           </div>
@@ -113,7 +113,9 @@ function Hero() {
 
           <div className="hero-code-card">
 
-            {/* Code Header */}
+            {/* =========================
+                CODE HEADER
+            ========================= */}
 
             <div className="code-header">
 
@@ -129,7 +131,9 @@ function Hero() {
 
             </div>
 
-            {/* Code */}
+            {/* =========================
+                CODE
+            ========================= */}
 
             <div className="hero-code">
 
@@ -210,7 +214,7 @@ function Hero() {
                 database ={" "}
 
                 <span className="code-string">
-                  "MySQL"
+                  "MySQL & PostgreSQL"
                 </span>
                 ;
               </div>
@@ -230,27 +234,21 @@ function Hero() {
               </div>
 
               <div className="code-double-indent">
-
                 <span className="code-comment">
                   // Building scalable systems
                 </span>
-
               </div>
 
               <div className="code-double-indent">
-
                 <span className="code-comment">
                   // Designing reliable APIs
                 </span>
-
               </div>
 
               <div className="code-double-indent">
-
                 <span className="code-comment">
                   // Solving backend problems
                 </span>
-
               </div>
 
               <div className="code-indent">
@@ -263,14 +261,16 @@ function Hero() {
 
             </div>
 
-            {/* Code Footer */}
+            {/* =========================
+                CODE FOOTER
+            ========================= */}
 
             <div className="code-status">
 
               <span className="status-dot"></span>
 
               <span>
-                Available for opportunities
+                Open to backend opportunities
               </span>
 
             </div>

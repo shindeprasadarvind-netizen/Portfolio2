@@ -740,3 +740,46 @@
     font-size: 9px;
   }
 }
+/* =========================
+   HERO POLISH
+========================= */
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 10%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(
+    circle,
+    rgba(155, 92, 255, 0.10),
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.hero-code-card {
+  animation: heroCardFloat 5s ease-in-out infinite;
+}
+
+@keyframes heroCardFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-7px);
+  }
+}
+
+.hero-code-card:hover {
+  animation-play-state: paused;
+}
